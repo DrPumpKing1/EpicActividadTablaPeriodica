@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5621e5ad1b9084f8bb66de8251cfd5a3, type: 3}
+  m_Name: Space_1
+  m_EditorClassIdentifier: 
+  version: 1
+  sku: 
+  packageName: Actividad Tabla Periodica
+  thumbnail: {fileID: 2800000, guid: 1b8f5ffd0a15443b394c6dd980500183, type: 3}
+  savedProjectSettings: {fileID: 11400000, guid: b4d3f3931508d4e3381693ee23f6fe04,
+    type: 2}
+  worldID: 
+  scene: {fileID: 102900000, guid: 37e37035cab563c47b5d52a2140493e7, type: 3}
+  csharpAssembly: {fileID: 5897886265953266890, guid: af5df4039f1d4984a80814be958bef8b,
+    type: 3}
+  embeddedPackageAssets:
+  - id: Electron
+    asset: {fileID: 2344459385053889900, guid: eeff4c38b2267bb4da81af2adeedb65d, type: 3}
+  - id: Element
+    asset: {fileID: -6580596780531805226, guid: e07026d42ee935f4daed8720e481ab01,
+      type: 3}
+  networkPrefabs: []
+  settings:
+    serverInstancingEnabled: 1
+    serverCapacitySetting: 1
+    serverInstanceCapacity: 16

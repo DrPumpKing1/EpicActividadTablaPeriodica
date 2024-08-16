@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7449EEFE-F9FA-3EC9-285C-DAA3353A4AC3}|AssemblyActividad.csproj|c:\\users\\salva\\documents\\github\\epicactividadtablaperiodica\\assets\\actividad\\scripts\\core mechanics\\object - electron\\electronmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7449EEFE-F9FA-3EC9-285C-DAA3353A4AC3}|AssemblyActividad.csproj|solutionrelative:assets\\actividad\\scripts\\core mechanics\\object - electron\\electronmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7449EEFE-F9FA-3EC9-285C-DAA3353A4AC3}|AssemblyActividad.csproj|C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\assets\\actividad\\scripts\\core mechanics\\object - element\\faceplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7449EEFE-F9FA-3EC9-285C-DAA3353A4AC3}|AssemblyActividad.csproj|solutionrelative:assets\\actividad\\scripts\\core mechanics\\object - element\\faceplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7449EEFE-F9FA-3EC9-285C-DAA3353A4AC3}|AssemblyActividad.csproj|C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\assets\\actividad\\scripts\\core mechanics\\object - element\\elementquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7449EEFE-F9FA-3EC9-285C-DAA3353A4AC3}|AssemblyActividad.csproj|solutionrelative:assets\\actividad\\scripts\\core mechanics\\object - element\\elementquestion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7449EEFE-F9FA-3EC9-285C-DAA3353A4AC3}|AssemblyActividad.csproj|C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\assets\\actividad\\scripts\\core mechanics\\object - element\\elementmonologue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7449EEFE-F9FA-3EC9-285C-DAA3353A4AC3}|AssemblyActividad.csproj|solutionrelative:assets\\actividad\\scripts\\core mechanics\\object - element\\elementmonologue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ElectronMovement.cs",
+              "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Electron\\ElectronMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Electron\\ElectronMovement.cs",
+              "ToolTip": "C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Electron\\ElectronMovement.cs",
+              "RelativeToolTip": "Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Electron\\ElectronMovement.cs",
+              "ViewState": "AQIAACYAAAAAAAAAAAAQwEUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T21:27:26.806Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FacePlayer.cs",
+              "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\FacePlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\FacePlayer.cs",
+              "ToolTip": "C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\FacePlayer.cs",
+              "RelativeToolTip": "Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\FacePlayer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T20:16:59.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ElementQuestion.cs",
+              "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\ElementQuestion.cs",
+              "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\ElementQuestion.cs",
+              "ToolTip": "C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\ElementQuestion.cs",
+              "RelativeToolTip": "Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\ElementQuestion.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwEIAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T20:07:48.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ElementMonologue.cs",
+              "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\ElementMonologue.cs",
+              "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\ElementMonologue.cs",
+              "ToolTip": "C:\\Users\\salva\\Documents\\Github\\EpicActividadTablaPeriodica\\Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\ElementMonologue.cs",
+              "RelativeToolTip": "Assets\\Actividad\\Scripts\\Core Mechanics\\Object - Element\\ElementMonologue.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBoAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T04:10:11.173Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
