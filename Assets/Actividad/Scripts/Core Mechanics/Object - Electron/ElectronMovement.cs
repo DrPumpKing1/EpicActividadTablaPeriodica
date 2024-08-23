@@ -22,6 +22,7 @@ public class ElectronMovement : MonoBehaviour
     [SerializeField] private float radialSpeed;
     [SerializeField] private float inclinationAngle;
     [SerializeField] private float sizeMultiplier;
+    [SerializeField] private Transform moveAroundObject;
 
     [Header("Components")]
     [SerializeField] private GameObject electronObject;
@@ -66,6 +67,11 @@ public class ElectronMovement : MonoBehaviour
         Vector2 positionInCircle = new Vector2(Mathf.Cos(angle * Mathf.Deg2Rad), Mathf.Sin(angle * Mathf.Deg2Rad)) * radius;
         float elevation = 1f + radius * Mathf.Cos(angle * Mathf.Deg2Rad) * Mathf.Tan(inclinationAngle * Mathf.Deg2Rad);
 
-        transform.position = new Vector3(positionInCircle.x, elevation, positionInCircle.y) + localAvatar.position;
+        transform.position = new Vector3(positionInCircle.x, elevation, positionInCircle.y) + (moveAroundObject != null ? moveAroundObject.position : localAvatar.position);
+    }
+
+    public void SetMoveAroundObject(Transform moveAroundObject)
+    {
+        this.moveAroundObject = moveAroundObject;
     }
 }

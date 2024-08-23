@@ -13,8 +13,11 @@ public class ElementMonologue : MonoBehaviour
     }
 
     [SerializeField] private Message[] monologue;
+    [SerializeField] private bool customBehaviourHydrogen;
+    [SerializeField] private bool customBehaviourHelium;
 
     [Header("States")]
+    [SerializeField] private bool customBehaviourTriggered;
     [SerializeField] private bool isTalking;
     [SerializeField] private int actualMessageNumber;
     [SerializeField] private float messageTimer;
@@ -42,6 +45,27 @@ public class ElementMonologue : MonoBehaviour
     private void EndMonologue()
     {
         actualMessageNumber = 0;
+
+        if (customBehaviourHydrogen)
+        {
+            EndTalking();
+            if (customBehaviourTriggered) return;
+
+            question.Reward();
+
+            customBehaviourTriggered = true;
+            return;
+        }
+
+        if (customBehaviourHelium)
+        {
+            EndTalking();
+            List<ElectronMovement> electrons = new List<ElectronMovement>(FindObjectsOfType<ElectronMovement>());
+            electrons.ForEach(e => e.SetMoveAroundObject(transform));
+
+            return;
+        }
+
 
         question.StartQuestion();
     }

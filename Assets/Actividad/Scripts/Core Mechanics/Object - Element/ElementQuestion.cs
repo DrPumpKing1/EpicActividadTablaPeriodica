@@ -8,8 +8,11 @@ public class ElementQuestion : MonoBehaviour
 {
     [Header("Texts")]
     [SerializeField, TextArea] private string questionText;
+    [SerializeField] private float questionTimeSeconds;
     [SerializeField, TextArea] private string correctAnswerText;
+    [SerializeField] private float correctAnwerTimeSeconds;
     [SerializeField, TextArea] private string incorrectAnswerText;
+    [SerializeField] private float incorrectAnwerTimeSeconds;
 
     [Header("Components")]
     [SerializeField] private GameObject questionObject;
@@ -52,7 +55,7 @@ public class ElementQuestion : MonoBehaviour
         isQuestioning = true;
         questionObject.SetActive(true);
 
-        SpatialBridge.coreGUIService.DisplayToastMessage(questionText);
+        SpatialBridge.coreGUIService.DisplayToastMessage(questionText, questionTimeSeconds);
     }
 
     public void Answer(bool isAnswerA)
@@ -67,7 +70,7 @@ public class ElementQuestion : MonoBehaviour
             Reward();
         }
 
-        SpatialBridge.coreGUIService.DisplayToastMessage(correctAnswer ? correctAnswerText : incorrectAnswerText);
+        SpatialBridge.coreGUIService.DisplayToastMessage(correctAnswer ? correctAnswerText : incorrectAnswerText, correctAnswer ? correctAnwerTimeSeconds : incorrectAnwerTimeSeconds);
 
         monologue.EndTalking();
         questionObject.SetActive(false);

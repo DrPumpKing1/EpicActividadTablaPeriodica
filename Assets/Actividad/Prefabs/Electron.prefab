@@ -4892,6 +4892,7 @@ MonoBehaviour:
   radialSpeed: 0
   inclinationAngle: 0
   sizeMultiplier: 0
+  moveAroundObject: {fileID: 0}
   electronObject: {fileID: 1563542163582783616}
   angle: 0
 --- !u!1 &1563542163582783616
